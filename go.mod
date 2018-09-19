@@ -1,4 +1,4 @@
-module github.com/cespare/reflex
+module github.com/aojianwu/reflex
 
 require (
 	github.com/fsnotify/fsnotify v1.4.7
@@ -8,3 +8,6 @@ require (
 	github.com/ogier/pflag v0.0.1
 	golang.org/x/sys v0.0.0-20180909124046-d0be0721c37e // indirect
 )
+
+
+replace golang.org/x/sys v0.0.0-20180909124046-d0be0721c37e => github.com/golang/sys v0.0.0-20180909124046-d0be0721c37e
